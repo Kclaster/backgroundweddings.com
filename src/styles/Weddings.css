@@ -1,0 +1,29 @@
+.PicLink-container img {
+    width: 30vw;
+    display: block;
+    margin: 3vh 3vw;
+}
+
+.PicLink-container h2 {
+    color: #535d63;
+    text-align: center;
+}
+
+.wedding-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90vw;
+}
+
+.wedding-container h2 {
+    margin-top: 3vh;
+}
+
+.weddingGrid {
+    margin: 6vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}

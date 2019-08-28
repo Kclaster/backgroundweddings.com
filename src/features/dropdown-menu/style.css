@@ -1,0 +1,19 @@
+.droplinks {
+    text-decoration: none;
+    text-align: start;
+    color: #535d63;
+    text-transform: none;
+}
+
+.droplinks:hover {
+    text-decoration: underline;
+}
+
+.droplink-head {
+    list-style-type: none;
+    text-decoration: none;
+    color: #535d63;
+    text-align: start;
+}
+
+

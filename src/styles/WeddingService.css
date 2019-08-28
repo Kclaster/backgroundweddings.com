@@ -1,0 +1,35 @@
+.miniScroller img  {
+    width: 25%;
+    height: 100%;
+    display: block;
+}
+
+.article {
+    width: 80vw;  
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12vh;
+}
+
+.services-header {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.miniScroller {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fade {
+    opacity: .5;
+}
+
+.services-header {
+    font-weight: bold;
+}

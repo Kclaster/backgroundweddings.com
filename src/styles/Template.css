@@ -1,0 +1,34 @@
+.stillHeader {
+    width: 100vw;
+}
+
+.title {
+    text-align: center;
+    margin: 4vh 0;
+}
+
+.story-container {
+    margin: 4vh 0 5vh 0;
+}
+
+.testimony {
+    width: 70vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimony p {
+    width: 50%;
+}
+
+.testimony-container {
+    display: flex;
+    justify-content: center; 
+    width: 100vw;
+}
+
+#firstRow {
+    margin-bottom: 0;
+}

@@ -1,0 +1,98 @@
+.about-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.about-me img {
+  width: 30vw;
+  margin: 2vh 4vw;
+}
+
+.about-me p {
+  margin: 2vh 0;
+}
+
+.aboutMeParagraphs {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMeParagraphChild {
+  width: 70%;
+}
+
+.column-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me h1 {
+  text-align: end;
+  margin-right: 1vw;
+}
+
+.aboutme-container .title {
+  margin: 0 0 6vh 0;
+}
+
+.about-me .submit-btn {
+  margin-right: 4vw;
+}
+
+.about-me h3 {
+  color: #535d63;
+  display: block;
+  width: 128px;
+}
+
+.word-container-container {
+  margin-top: -4vh;
+}
+
+.word-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  color: #535d63;
+  padding-right: 1vw;
+}
+
+@media only screen and (max-width: 660px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #aboutMe2,
+  #aboutMe3 {
+    display: none;
+  }
+
+  #aboutMe1 {
+    height: auto;
+    width: 80vw;
+  }
+
+  .word-container {
+    display: none;
+  }
+
+  .aboutme-container .title {
+    margin: 6vh 0 0 0;
+  }
+}

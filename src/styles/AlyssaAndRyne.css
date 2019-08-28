@@ -1,0 +1,41 @@
+.picture-grid img {
+  width: 25vw;
+}
+
+.picture-grid-two img {
+  width: 40vw;
+}
+
+.picture-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  width: 79vw;
+}
+
+.picture-grid-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  width: 79vw;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin-bottom: 4vh;
+}
+
+.reference a,
+.reference h3 {
+  text-decoration: none;
+  color: #535d63;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

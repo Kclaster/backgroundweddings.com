@@ -1,0 +1,28 @@
+.homeImageContainer {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  margin: 4vw 0;
+  z-index: 1;
+}
+
+.scalingImage-container h2 {
+  margin-top: 4vh;
+}
+
+.body-paragraph {
+  width: 375px;
+}
+
+@media only screen and (max-width: 650px) {
+  .homeImageContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scale {
+    width: 80vw;
+  }
+}

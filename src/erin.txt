@@ -1,0 +1,37 @@
+
+
+first page, paragraphs skinnier and taller
+   width should be same as title: make it a lighter grey (transient grey)
+   lower title
+
+
+
+
+
+about me
+ pictures larger, shifted right, paragraphs no indent, no bullets for words
+move top pictures to middle (corry and Jesse), title all the way to the right,
+
+
+
+services
+   all caps in the title
+
+
+story 
+  testimony skinner (like home), fix hannah and ben
+
+keep pictures even at the bottom at all cost, even if you have to kill a picture
+
+
+contact
+background.weddings@gmail.com
+fix phone you idiot
+erase the title at the top
+all font must change
+fix instigram spelling
+radio buttons should not be underneath buttons, they should be underneath words only (Background Weddings should be underneath 'Attended')
+
+
+increase nav bar font-size by 25%
+no bold on navbar

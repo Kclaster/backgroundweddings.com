@@ -1,0 +1,28 @@
+.service-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.hidden-btn:hover {
+    display: block;
+}
+
+.image-container {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 6vh 0;
+    border-top: 3px solid #535d63;
+    border-bottom: 3px solid #535d63;
+}
+
+.borderRight {
+    border-right: 3px solid #535d63;
+}
+
+
+.onHoverTitle {
+    color: #535d63;
+}

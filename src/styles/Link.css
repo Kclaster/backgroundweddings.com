@@ -1,0 +1,25 @@
+.link {
+    text-decoration: none;
+    color: #535d63;
+    z-index: 2;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 1em;
+    font-size: 1.25em;
+}
+
+.link:hover {
+    color: white;
+    background: #8d9397;
+    transition: font-size .1s ease-in;
+    cursor: pointer;
+}
+
+.link:hover a {
+    color: white;
+}
+
+.link:hover li {
+    color: white;
+}

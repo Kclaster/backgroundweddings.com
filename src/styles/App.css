@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+h1, h2, h3, h4, h5, h6, a, li, label, .select-box--container, input {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #535d63;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #535d63;
+}
+
+
+.none {
+    display: none;
+}
