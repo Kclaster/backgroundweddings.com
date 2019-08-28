@@ -6,7 +6,6 @@ import {withRouter} from 'react-router-dom'
 
 // Internal Dependencies
 import SelectBox from '../../features/select-box';
-import { addContact } from '../../actions/index';
 import professional from '../../pics/general/Erin Pics/professional.jpg';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -252,13 +251,4 @@ class Contact extends React.Component {
   }
 }
 
-const mapStateToProps = ({ contact }) => {
-  return {
-    contact
-  };
-};
-
-export default withRouter(connect(
-  mapStateToProps,
-  { addContact }
-)(Contact));
+export default withRouter(Contact);
